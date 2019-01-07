@@ -1,0 +1,27 @@
+print("Hello ")
+a=input("Enter the name of student:")
+b=str(input("Enter the roll number of student:"))
+print("Enter the marks of 12th class of",a)
+c=float(input("Enter the marks of ENGLISH:"))
+d=float(input("Enter the marks of MATHS:"))
+e=float(input("Enter the marks of PHYSICS:"))
+f=float(input("Enter the marks of CHEMISTRY:"))
+g=float(input("Enter the marks of PHY.EDU:"))
+h=100-((500-(c+d+e+f+g))/500)*(100)
+print("Percentge obtained in class 12th is:",h)
+print("Enter the marks obtained in mains of",a)
+j=float(input("Enter the marks of MATHS:"))
+k=float(input("Enter the marks of PHYSICS:"))
+l=float(input("Enter the marks of CHEMISTRY:"))
+i=(j+k+l)
+
+if (h>=75):
+
+ if(i>=114):
+   print("He is clear to give advance paper in prespective of boards paper ")
+if(h<75):
+  print("He cant give the advance paper as he have not clered the boardS")
+elif(i<114):
+   print("He cant give the advance paper as he have not cleared the mains")
+else:
+  print("He cant give the advance paper as he has not qualified mains or the board paper")

@@ -1,0 +1,31 @@
+lists=['1.Fruits','2.Vegitable','3.Biscuits','4.Garments']
+fruits=['Watermelon','Grapes','Strawberry','Pineapple','Mango','Apple','Banana']
+vegitable=['Onion','Potatoa','Spinach','Garlic','Capcicum']
+biscuits=['Milbikis','Marigold','Sunfest','Parle-g']
+garments=['T-shirt','Shirt','Jeans']
+basket=[]
+print("Press 1  if you are a customer of supermarket\nPress 2if employee of super market.")
+v=int(input("Enter your choice:"))
+if (v == 1):
+        print("The following are availabel in the super market")
+        print(lists)
+        b=int(input("Enter the number you want to see:"))
+        if(b==1):
+                print(fruits)
+        if(b==2):
+                print(vegitable)
+        if(b==3):
+                print(biscuits)
+        if(b==4):
+                print(garments)
+        int(input("Enter one item from each list to buy"))
+        n=str(input("Enter the item from fruits"))
+                m=str(input("Enter the item from vegitable"))
+                s=str(input("Enter the item from biscuits"))
+                d=str(input("Enter the item from garments"))
+                basket.insert(n,m,s,d)
+                print(basket)
+                
+        
+   
+            
